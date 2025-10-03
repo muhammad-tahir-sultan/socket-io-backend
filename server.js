@@ -46,7 +46,7 @@ io.on("connection", (socket) => {
 // Middleware Setup
 app.use(express.json({ limit: "4mb" }))
 app.use(cors({
-    origin: ["http://localhost:4173", "https://chat-app-socket-io-mern.vercel.app"]
+    origin: ["http://localhost:5173", "https://chat-app-socket-io-mern.vercel.app"]
 }))
 
 
