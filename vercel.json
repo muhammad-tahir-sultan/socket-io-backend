@@ -1,6 +1,7 @@
 {
-    "version": 2,
-    "name": "Socket.io Chat App",
-    "builds": [{ "src": "server.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
-  }
+  "version": 2,
+  "name": "SocketIO-MERN",
+  "builds": [{ "src": "server.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
+}
+
